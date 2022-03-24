@@ -172,7 +172,7 @@ We have put the model on Google Drive for users.
 ## Disclaimer
 
 - The experimental results presented in the report only show the performance under a specific data set and hyperparameter combination, and cannot represent the essence of each model. The experimental results may change due to random number seeds and computing equipment. 
-- **Users can use the model arbitrarily within the scope of the license, but we are not responsible for the direct or indirect losses caused by using the content of the project. ** 
+- **Users can use the model arbitrarily within the scope of the license, but we are not responsible for the direct or indirect losses caused by using the content of the project.** 
 
 
 ##  Acknowledgment
@@ -180,7 +180,3 @@ We have put the model on Google Drive for users.
 - SSCI-BERT was trained based on [BERT-Base-Cased]([google-research/bert: TensorFlow code and pre-trained models for BERT (github.com)](https://github.com/google-research/bert)).
 - SSCI-SciBERT was trained based on [scibert-scivocab-cased]([allenai/scibert: A BERT model for scientific text. (github.com)](https://github.com/allenai/scibert))
 
-## Contact us
-
-- Jeffrey Jeffrey_lau@qq.com 
-- Chang 649164915@qq.com

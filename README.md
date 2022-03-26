@@ -2,7 +2,6 @@
 
 <img src="logo.png" alt="logo" style="zoom: 67%;" />
 
-
 ## Introduction
 
 The research for social science texts needs the support natural language processing tools. 
@@ -11,7 +10,7 @@ The pre-training language model has greatly improved the accuracy of text mining
 
 We used the abstract of social science research as the training set. Based on the deep language model framework of BERT, we constructed SSCI-BERT and SSCI-SciBERT pre-training language models for intelligent processing tasks of social science text. 
 
-We designed four downstream tasks of  Text Classification, Named Entity Recognition (NER) on different Scientific article corpus and general corpus to verify the performance of the model.
+We designed four downstream tasks of  Text Classification on different social scientific article corpus to verify the performance of the model.
 
 - SSCI-BERT and SSCI-SciBERT are trained on the abstract of  articles published in SSCI journals from 1986 to 2021. The training set involved in the experiment included a total of `503910614 words`. 
 - Based on the idea of Domain-Adaptive Pretraining, `SSCI-BERT` and `SSCI-SciBERT` combine a large amount of abstracts of scientific articles  based on the BERT structure, and continue to train the BERT and SSCI-SciBERT models respectively to obtain pre-training models for the automatic processing of Social science research texts. 
@@ -60,7 +59,7 @@ model = AutoModel.from_pretrained("SSCIBERT/SSCIabs-SciBERT-e2-y05")
 
 - ~~Download directly through Huggingface's official website.~~ 
 - ~~**SSCI-BERT: **~~ 
-  
+
 - ~~**SSCI-SciBERT: **~~
 
 ### From Google Drive
@@ -80,7 +79,7 @@ We have put the model on Google Drive for users.
 
 ##  Evaluation & Results
 
-- We use SSCI-BERT and SSCI-SciBERT to perform Text Classification, Named Entity Recognition (NER) on different Social science research corpus and general corpus. The experimental results are as follows.
+- We use SSCI-BERT and SSCI-SciBERT to perform Text Classificationon different social science research corpus. The experimental results are as follows.
 
 #### JCR Title Classify Dataset
 
@@ -136,32 +135,6 @@ We have put the model on Google Drive for users.
 | macro avg    | 77.32                      | 78.03                      | 77.8                       | **78.37**                  | 77.68                      | 1377        |
 | weighted avg | 81.6                       | 81.93                      | 82.32                      | **82.58**                  | 81.92                      | 1377        |
 
-#### Groningen Meaning Bank NER Datasets
-
-| Tag     | Bert-base-cased            | SSCIabs-BERT-e2-y05        | SSCIabs-BERT-e4-y05        | SSCIabs-BERT-e2-y86        | SSCIabs-BERT-e4-y86        | Support     |
-| ------- | -------------------------- | -------------------------- | -------------------------- | -------------------------- | -------------------------- | ----------- |
-| art     | 14.55                      | 9.3                        | **16.33**                  | 11.54                      | 13.33                      | 34          |
-| eve     | 30.77                      | 36.92                      | **38.81**                  | 34.29                      | 35.29                      | 36          |
-| geo     | 87.99                      | 88.09                      | 88.48                      | 88.46                      | **88.63**                  | 3810        |
-| gpe     | **95.79**                  | 95.62                      | 95.5                       | 95.35                      | 95.54                      | 1700        |
-| nat     | 42.11                      | 44.44                      | 36.36                      | 41.18                      | 45.71                      | 21          |
-| org     | 71.52                      | 72.29                      | 72.21                      | **72.44**                  | 72.19                      | 1914        |
-| per     | 77.31                      | **77.45**                  | 76.78                      | 77.24                      | 77.4                       | 1665        |
-| tim     | 89.19                      | 89.42                      | 89.11                      | 88.83                      | 89.03                      | 2022        |
-| avg     | 84.5                       | 84.71                      | 84.66                      | 84.67                      | **84.79**                  | 11202       |
-| **Tag** | **Scibert-scivocab-cased** | **SSCIabs-SciBERT-e2-y05** | **SSCIabs-SciBERT-e4-y05** | **SSCIabs-SciBERT-e2-y86** | **SSCIabs-SciBERT-e4-y86** | **Support** |
-| art     | 12.5                       | 8.51                       | 12.24                      | 4                          | 4.44                       | 34          |
-| eve     | 35.14                      | 33.33                      | 27.78                      | 28.57                      | 28.17                      | 36          |
-| geo     | 88.33                      | 88.3                       | 88.42                      | 88.52                      | 88.46                      | 3810        |
-| gpe     | 95.25                      | 94.97                      | 95.26                      | 95.2                       | 95.25                      | 1700        |
-| nat     | **47.06**                  | 44.44                      | 43.24                      | 43.24                      | 40                         | 21          |
-| org     | 71.02                      | 71.59                      | 71.05                      | 70.96                      | 70.93                      | 1914        |
-| per     | **77.45**                  | 76.84                      | 76.39                      | 76.39                      | 76.31                      | 1665        |
-| tim     | 89.28                      | **89.64**                  | 89.46                      | 89.09                      | 89.02                      | 2022        |
-| avg     | 84.5                       | 84.49                      | 84.38                      | 84.3                       | 84.25                      | 11202       |
-
-
-
 
 
 ## Cited
@@ -179,4 +152,3 @@ We have put the model on Google Drive for users.
 
 - SSCI-BERT was trained based on [BERT-Base-Cased]([google-research/bert: TensorFlow code and pre-trained models for BERT (github.com)](https://github.com/google-research/bert)).
 - SSCI-SciBERT was trained based on [scibert-scivocab-cased]([allenai/scibert: A BERT model for scientific text. (github.com)](https://github.com/allenai/scibert))
-

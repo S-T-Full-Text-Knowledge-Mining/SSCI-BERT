@@ -1,4 +1,4 @@
-# SSCI-BERT: A pretrained language model for social scientific text
+# SsciBERT: A pretrained language model for social scientific text
 
 <img src="/logo.png" alt="logo" style="zoom: 67%;" />
 
@@ -19,7 +19,8 @@ We designed four downstream tasks of  Text Classification on different social sc
 
 ## News 
 
-- 2022-03-24 : SSCIBERT and SSCI-SciBERT has been put forward for the first time.
+- 2022-03-24 : SSCI-BERT and SSCI-SciBERT has been put forward for the first time.
+- 2022-06-09 : The paper for SsciBERT has been submitted to arxiv(https://arxiv.org/abs/2206.04510).
 
 
 
@@ -139,7 +140,8 @@ We have put the model on Google Drive for users.
 ## Cited
 
 - If our content is helpful for your research work, please quote our research in your article. 
-- If you want to quote our research, you can use this url (https://github.com/S-T-Full-Text-Knowledge-Mining/SSCI-BERT) as an alternative before our paper is published.
+- If you want to quote our research, you can use this url ([SsciBERT: A Pre-trained Language Model for Social Science Texts
+](https://arxiv.org/abs/2206.04510)) as an alternative before our paper is published.
 
 ## Disclaimer
 

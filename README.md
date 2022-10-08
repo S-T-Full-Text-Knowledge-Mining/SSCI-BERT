@@ -55,12 +55,15 @@ model = AutoModel.from_pretrained("KM4STfulltext/SSCI-SciBERT-e2")
 1. Datasets for Pretraining
 
 Abstract data for SSCI papers published in WOS from 1986 to 2021, with duplicate entries and missing abstract entries removed. Each line of the corpus is an abstract of a paper, consisting of 2964743 abstracts from 3250 journals.
+
 2. Datasets for JCR Social Science Disciplines Classification 
 
 SSCI journal papers published between 2006 and 2020 are then subject-matched to the list of JCR disciplines based on the journal's ISSN number, comprising a total of 46 disciplines. Extract 500 pieces of data from each discipline as a dataset for the JCR Social Science Discipline Classification task. A total of 23,000 header data and 22,000 summary data were obtained.
+
 3. Datasets for Identifying Abstract Structures 
 
 SSCI journal abstracts published between 2008 and 2020 obtained a total of 1378276 construction notes according to the functional structure of the sentence-by-sentence annotation abstracts in the five categories of background, purpose, methodology, results and conclusions (BPMRC).
+
 4. Datasets for Software Entities Recognition in Scientometrics 
 
 Using full-text data published in Scientometrics from 2010 to 2020, software entities in the dataset were manually annotated, and a total of 13,269 software entities were identified.

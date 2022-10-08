@@ -60,7 +60,8 @@ SSCI journal papers published between 2006 and 2020 are then subject-matched to 
 SSCI journal abstracts published between 2008 and 2020 obtained a total of 1378276 construction notes according to the functional structure of the sentence-by-sentence annotation abstracts in the five categories of background, purpose, methodology, results and conclusions (BPMRC).
 4. Datasets for Software Entities Recognition in Scientometrics
 Using full-text data published in Scientometrics from 2010 to 2020, software entities in the dataset were manually annotated, and a total of 13,269 software entities were identified.
-> dataset examples can be find in 'datasets/examples' and if you want all datasets for researches, please email us and we will provide for free.
+> dataset examples can be find in 'datasets/examples'
+> if you want all datasets for researches, please email us and we will provide for free.()
 ### Download Models
 
 - The version of the model we provide is `PyTorch`. 

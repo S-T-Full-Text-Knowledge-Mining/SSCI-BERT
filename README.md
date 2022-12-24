@@ -157,8 +157,7 @@ We have put the model on Google Drive for users.
 ## Cited
 
 - If our content is helpful for your research work, please quote our research in your article. 
-- If you want to quote our research, you can use this url ([SsciBERT: A Pre-trained Language Model for Social Science Texts
-](https://arxiv.org/abs/2206.04510)) as an alternative before our paper is published.
+- If you want to quote our research, [https://link.springer.com/article/10.1007/s11192-022-04602-4](https://link.springer.com/article/10.1007/s11192-022-04602-4)
 
 ## Disclaimer
 
